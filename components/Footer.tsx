@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
             <div className="relative font-bold leading-[16px] text-[#ec3d6f]">
               <div className="absolute left-0 top-0 h-full w-full bg-[#ec3d6f] opacity-70 blur-lg" />
-              <div className="relative z-10">{`Choppa`}</div>
+              <div className="relative z-10">{`Potato.Service`}</div>
             </div>
           </div>
         </Link>
