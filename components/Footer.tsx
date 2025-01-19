@@ -70,7 +70,7 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="middle flex flex-row items-center justify-between px-4 pb-6 pt-2 xl:px-0">
         <div className="text-sm text-muted-foreground">
-          &copy; Potato.Service 2024-2025
+          &copy; Potato Service 2024-2025
         </div>
         <Link href="https://discord.com/users/734067467848253520" target="_blank">
           <div className="flex cursor-pointer flex-col rounded-md px-2 py-2">
