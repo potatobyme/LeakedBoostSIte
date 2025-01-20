@@ -2,23 +2,24 @@
 
 import React, { useEffect } from "react";
 
-const CrispApp = () => {
+const TawkToWidget = () => {
   useEffect(() => {
+    // Ensure the script is added only on the client-side
     if (typeof window !== "undefined") {
-      window.$crisp = [];
-      window.CRISP_WEBSITE_ID = "91af6372-1645-4b6b-aac0-f5614d04808c";
-
+      var Tawk_API = Tawk_API || {};
+      var Tawk_LoadStart = new Date();
       (function () {
-        const d = document;
-        const s = d.createElement("script");
-        s.src = "https://client.crisp.chat/l.js";
-        s.async = true;
-        d.getElementsByTagName("head")[0].appendChild(s);
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = "https://embed.tawk.to/678dd5e83a84273260717526/1ii10n65t";
+        script.charset = "UTF-8";
+        script.setAttribute("crossorigin", "*");
+        document.body.appendChild(script);
       })();
     }
   }, []);
 
-  return null;
+  return null; // This component doesn't render anything on the page
 };
 
-export default CrispApp;
+export default TawkToWidget;
