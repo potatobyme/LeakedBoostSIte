@@ -1,13 +1,16 @@
-"use client"; 
+"use client";
 
 import React, { useEffect } from "react";
 
-const TawkToWidget = () => {
+const Crisp = () => {
   useEffect(() => {
-    // Ensure the script is added only on the client-side
     if (typeof window !== "undefined") {
-      var Tawk_API = Tawk_API || {};
-      var Tawk_LoadStart = new Date();
+      window.Tawk_API = window.Tawk_API || {};
+      window.Tawk_LoadStart = new Date();
+      
+      // Assign your API key to Tawk_API or use it as needed
+      window.Tawk_API.apiKey = "4cc1d20a1d0fc5ba36d22c8007dc3aa66ce913da";
+
       (function () {
         const script = document.createElement("script");
         script.async = true;
@@ -19,7 +22,7 @@ const TawkToWidget = () => {
     }
   }, []);
 
-  return null; // This component doesn't render anything on the page
+  return null; // No UI rendering
 };
 
-export default TawkToWidget;
+export default Crisp;
