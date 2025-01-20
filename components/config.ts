@@ -1,5 +1,5 @@
 export const LINKS = {
-  DISCORD: "https://discord.gg/novex",
+  DISCORD: "https://discord.gg/6Dgjxage",
   TELEGRAM: "https://t.me/",
   TWITTER: "https://x.com",
 };
@@ -17,7 +17,7 @@ export const LandingPageLinks = [
   },
   {
     name: "Reviews",
-    link: "https://novexx.mysellix.io/feedbacks",
+    link: "https://potatoservice.mysellix.io/",
   },
   {
     name: "Products",
