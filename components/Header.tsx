@@ -16,7 +16,7 @@ const Header = () => {
         <Link href="/">
           <div className="flex flex-row items-center gap-1">
             <Image src="/logo.png" alt="Robolox" width={40} height={40} />
-            <span className="text-xl font-bold PoseidonFont">Cosmic Boosts</span>
+            <span className="text-xl font-bold PoseidonFont">Zenithboost</span>
           </div>
         </Link>
         <div className="hidden md:flex flex-row items-center gap-2">
